@@ -15,7 +15,7 @@ spec:
       containers:
         - name: josiah-api
         # This image is going to be the path to the image you create in a future step
-          image:
+          image: us-docker.pkg.dev/my-project-1st-416402/josiah-api/api-tests
           ports:
             - containerPort: 3000
           resources:
